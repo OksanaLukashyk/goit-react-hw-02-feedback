@@ -7,7 +7,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
         <ul className={css.btnList}> {
             options.map(option => (
-                <li key={option} className = {`${css.btnListItem} ${css.glowOnHover}`}>
+                <li key={option} className = {{css.btnListItem}}>
                     <button
                         type="button"
                         className={css.btnFeedBack}
